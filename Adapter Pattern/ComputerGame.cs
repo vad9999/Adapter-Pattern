@@ -13,7 +13,7 @@ namespace Adapter_Pattern
         private double budgetInMillionsOfDollars;
         private int minimumGpuMemoryInMegabytes;
         private int diskSpaceNeededInGB;
-        private int ramNeededInGb;
+        private int ramNeededInGB;
         private int coresNeeded;
         private double coreSpeedInGhz;
 
@@ -22,7 +22,7 @@ namespace Adapter_Pattern
                             double budgetInMillionsOfDollars,
                             int minimumGpuMemoryInMegabytes,
                             int diskSpaceNeededInGB,
-                            int ramNeededInGb,
+                            int ramNeededInGB,
                             int coresNeeded,
                             double coreSpeedInGhz)
         {
@@ -31,7 +31,7 @@ namespace Adapter_Pattern
             this.budgetInMillionsOfDollars = budgetInMillionsOfDollars;
             this.minimumGpuMemoryInMegabytes = minimumGpuMemoryInMegabytes;
             this.diskSpaceNeededInGB = diskSpaceNeededInGB;
-            this.ramNeededInGb = ramNeededInGb;
+            this.ramNeededInGB = ramNeededInGB;
             this.coresNeeded = coresNeeded;
             this.coreSpeedInGhz = coreSpeedInGhz;
         }
@@ -61,9 +61,9 @@ namespace Adapter_Pattern
             return diskSpaceNeededInGB;
         }
 
-        public int getRamNeededInGb()
+        public int getRamNeededInGB()
         {
-            return ramNeededInGb;
+            return ramNeededInGB;
         }
 
         public int getCoresNeeded()

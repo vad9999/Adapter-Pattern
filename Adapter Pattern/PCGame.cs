@@ -58,7 +58,7 @@ namespace Adapter_Pattern
             return new Requirements(
                 gpuMemoryInGB,
                 computerGame.getDiskSpaceNeededInGB(),
-                computerGame.getRamNeededInGb(),
+                computerGame.getRamNeededInGB(),
                 computerGame.getCoreSpeedInGhz(),
                 computerGame.getCoresNeeded()
             );
